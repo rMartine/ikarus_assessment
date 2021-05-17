@@ -1,0 +1,259 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.App-top {
+  justify-content: center;
+  align-content: center;
+}
+
+.App-bottom {
+  justify-content: center;
+  align-content: center;
+}
+
+.App-dex {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+  border-radius: 14px;
+  max-width: 25%;
+  max-height: 25%;
+  object-fit: contain;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+.Tb-id-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Tb-id {
+  text-align: center;
+}
+
+.Tb-image {
+  text-align: center;
+}
+
+.Image-avatar {
+  width: 50%;
+}
+
+.Tb-type-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Tb-type {
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 2px;
+}
+
+.Bug {
+  background-color: #94BC4A;
+}
+
+.Dark {
+  background-color: #94BC4A;
+}
+
+.Dragon {
+  background-color: #6A7BAF;
+}
+
+.Electric {
+  background-color: #E5C531;
+}
+
+.Fairy {
+  background-color: #E397D1;
+}
+
+.Fighting {
+  background-color: #CB5F48;
+}
+
+.Fire {
+  background-color: #EA7A3C;
+}
+
+.Flying {
+  background-color: #7DA6DE;
+}
+
+.Ghost {
+  background-color: #846AB6;
+}
+
+.Grass {
+  background-color: #71C558;
+}
+
+.Ground {
+  background-color: #CC9F4F;
+}
+
+.Ice {
+  background-color: #70CBD4;
+}
+
+.Normal {
+  background-color: #AAB09F;
+}
+
+.Poison {
+  background-color: #B468B7;
+}
+
+.Psychic {
+  background-color: #E5709B;
+}
+
+.Rock {
+  background-color: #B2A061;
+}
+
+.Steel {
+  background-color: #89A1B0;
+}
+
+.Water {
+  background-color: #539AE2;
+}
+
+.Modal-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  position: fixed;
+  background-color: rgba(0,0,0,.6);
+  padding-top: 2%;
+}
+
+.Modal-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  vertical-align: middle;
+  border-radius: 4px;
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+
+.Modal-header {
+  display: flex;
+  flex: 0.05 60px;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  background-color: #cc0000;
+  padding-left: 14px;
+}
+
+.Modal-header h4 {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  text-align: left;
+}
+
+.Modal-header span {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 14px;
+  font-size: 20px;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.Modal-header span:hover {
+  opacity: 1;
+}
+
+.Modal-main {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  flex: 0.95;
+}
+
+.Detail-div-pic {
+  display: flex;
+  flex: 0.4;
+  align-content: center;
+  justify-content: center;
+}
+
+.Detail-div-pic img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.Detail-about {
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.Detail-list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.Detail-type {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  margin: 2px;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
